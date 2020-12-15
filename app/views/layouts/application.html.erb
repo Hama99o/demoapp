@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webapp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+  <nav>
+    <ul>
+      <li class="html"><a href="<%= root_path %>">Home</a>
+        <ul class="submenu">
+          <li><a href=""alt="">Paraghraphes</a></li>
+          <li><a href="#">Horizantal</a></li>
+          <li><a href="#">Vertical</a></li>
+        </ul>
+      </li>
+      <li class="CSS"><a href="/bye">CSS</a>
+        <ul class="submenu">
+          <li> <a href="#">Display</a></li>
+          <li><a href="#">Position</a></li>
+        </ul>
+      </li>
+      <li class="Java"><a href="/bonjour/hama">Javascript</a>
+        <ul class="submenu">
+          <li><a href="#">Stop</a></li>
+          <li><a href="#">Next</a></li>
+          <li><a href="#">Planted</a></li>
+        </ul>
+      </li>
+      <li class="centect"><a href="/bonjour">centect</a> </li>
+
+      <li class="PHP"><a href="#">PHP</a>
+        <ul class="submenu">
+          <li><a href="#">SQL</a></li>
+          <li><a href="#">PHPstart</a></li>
+          <li><a href="#">Database</a></li>
+        </ul>
+      </li>
+
+
+    </ul>
+
+  </nav>
+    <%= yield %>
+  </body>
+</html>

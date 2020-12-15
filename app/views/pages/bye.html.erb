@@ -1,0 +1,40 @@
+<h3>hello</h3>
+<form method="post" action="Hmma.php">
+  <fieldset id="first">
+    <legend>dossier</legend>
+    <label for="prenom">entrez votre prenom</label>
+    <input type="text" name="prenom" id="prenom"  autofocus="autofocus" autocomplate="of">
+
+    <label for="nom"> Entrez votre Nom:</label>
+    <input type="text" name="nom" id="nom" >
+
+    <label for="nombre"> choissez un chiffre entre 1 et 10</label>
+    <input type="number" name="nombre" id="nombre" min="2" max="12">
+
+
+  </fieldset>
+  <fieldset id="secend">
+    <legend>information supplementaire</legend>
+    <label for="pays"> Pays:</label>
+    <select>
+
+
+      <option>Afg</option>
+      <option>Seude</option>
+      <option>Italie</option>
+      <option>Almagne</option>
+      <option>Beljique</option>
+      <option selected="selected">France</option>
+
+
+
+    </select><br/><br/> <br/>
+
+    <lable>Sports:</lable>
+    <input type="checkbox" name="sports" id="Cricket" value="Criket"><label for="Cricket"></label> Cricket</label>
+    <input type="checkbox" name="sports" id="football" value="football"><label for="football">foot</label>
+    <input type="checkbox" name="sports" id="baseball" value="baseball"><label for="baseball">Baseball</label>
+
+  </fieldset>
+  <input type="submit" value="Envoyer" name="submit" id="submit">
+</form>

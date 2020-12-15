@@ -1,0 +1,128 @@
+body{
+    font-family: 'Source code pro', Calibri,  serif;
+    margin:0px;
+    padding:0px;
+    background-image: url("header.jpg")
+
+}
+
+nav{
+    width:100%;
+    background-color: brown;
+}
+nav > ul{
+    margin:0px;
+    padding:0px;
+
+
+}
+nav li{
+    list-style-type:none;
+}
+
+nav > ul > li{
+    float:left;
+    position: Relative;
+}
+
+nav > ul > li > a{
+
+    padding: 20px 30px;
+    color:#fff;
+
+}
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+nav > ul::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.submenu{
+    display:none;
+}
+nav a{
+    display:block;
+    text-decoration:none;
+
+
+}
+
+nav li:hover .submenu{
+    display:inline-block;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:1000;
+
+
+}
+.submenu li{
+    border-bottom:1px solid #ccc;
+}
+
+.submenu li a{
+    padding:15px 30px;
+    font-size:13px;
+    color:#222538;
+    width:270px;
+}
+
+.html:hover{
+    border-top:5px solid #f5e4e0;
+    background-color: #3d1910;
+
+}
+.CSS:hover{
+    border-top:5px solid #ee4f23;
+    background-color: #3a2f2c;
+
+}
+.Java:hover{
+    border-top:5px solid #0e0d0d;
+    background-color:  #e44d26 ;
+
+}
+.PHP:hover{
+    border-top:5px solid #292727;
+    background-color: #692c1d;
+
+}
+.centect:hover{
+    border-top:5px solid rgb(51, 20, 20);
+    background-color: #070707;
+
+}
+
+.html .submenu{
+    background-color: #3b52e9;
+}
+.CSS .submenu{
+    background-color: #1c33ca;
+}
+.Java .submenu{
+    background-color: #1c2faf;
+}
+.PHP .submenu{
+    background-color: #0b1a7c;
+}
+
+.menu li:hover{
+    color:#eee;
+    font-weight:bold;
+}
+.html .submenu li:hover{
+    background-color: #1f1c1c;
+}
+
+.CSS .submenu li:hover{
+    background-color: #794141;
+}
+.Java .submenu li:hover{
+    background-color: #8b8383;
+}
+.PHP .submenu li:hover{
+    background-color: #7c6969;
+}
