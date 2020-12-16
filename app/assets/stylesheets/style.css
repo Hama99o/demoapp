@@ -126,3 +126,8 @@ nav li:hover .submenu{
 .PHP .submenu li:hover{
     background-color: #7c6969;
 }
+
+.form{
+    background-color: pink;
+}
+

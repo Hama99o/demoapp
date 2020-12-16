@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :microposts
   resources :users
   root to: 'pages#home'
   get '/bonjour/:hama', to:'pages#salut'
