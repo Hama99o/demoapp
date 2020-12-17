@@ -1,15 +1,7 @@
 class PagesController < ApplicationController
 
-  def salut
-    @hama = params[:hama]
-  end
-  def bye
 
+ def home
   end
 
-  def home
-  end
-  def john
-
-  end
 end
